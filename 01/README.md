@@ -18,14 +18,16 @@
 6. Вывод команды docker ps после изменения имени контейнера в коде
 ![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/01/files/6_punkt.png)
 
-Флаг -auto-approve применяет изменения без запроса подтверждения от пользователя. Если в конфиге будут ошибки, то они бдут применены.
-Флаг -auto-approve может быть полезен в скриптах, где не нужно подтверждение.
+- Флаг -auto-approve применяет изменения без запроса подтверждения от пользователя. Если в конфиге будут ошибки, то они бдут применены.
+- Флаг -auto-approve может быть полезен в скриптах, где не нужно подтверждение.
 
 7. Файл terraform.tfstate после выполнения команды terraform destroy
 ![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/01/files/7_punkt.png)
+
 После выполнения кончено остался файл backup, который я удалил вручную
 
 8. Образе не удалился из за опции keep_locally = true в классификаторе resource docker_image. Опция контролирует, будет ли Terraform удалять локально загруженные образы после их использования.
+
 Та самая строка из документации
 ![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/01/files/8_punkt.png)
 
