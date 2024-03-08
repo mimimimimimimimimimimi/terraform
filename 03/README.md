@@ -3,7 +3,7 @@
 ## Задача 1
 1. Вот скриншот входящих правил в созданой сети 
 
-![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/03/files/z1.png)
+![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/03/files/z1.1.png)
 
 ## Задача 2
 - Пришлось немного подумать, чтоб for_each получал данные из переменной, но вроде сделал.
