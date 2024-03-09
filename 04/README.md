@@ -24,24 +24,24 @@
 
 - Ниже ссылка на md файл полученный с помощью terrafom-docs
 
-[Файл](https://github.com/mimimimimimimimimimimi/terraform/tree/main/dz3/files/doc.md)
+[Файл](https://github.com/mimimimimimimimimimimi/terraform/tree/main/dz4/files/doc.md)
 
 
 ## Задача 3
 - list и удаление
 
-![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/z4.1.png)
+![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/3.1.png)
 
 - Вернул network и subnet
 
-![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/z4.2.png)
+![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/z3.2.png)
 
 - Вернул вм
 
-![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/z4.3.png)
+![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/z3.3.png)
 
 - terraform plan
 
-![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/z4.4.png)
+![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/z3.4.png)
 
 
