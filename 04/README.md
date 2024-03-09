@@ -24,13 +24,13 @@
 
 - Ниже ссылка на md файл полученный с помощью terrafom-docs
 
-[Файл](https://github.com/mimimimimimimimimimimi/terraform/tree/main/dz4/files/doc.md)
+[Файл](https://github.com/mimimimimimimimimimimi/terraform/tree/main/04/files/doc.md)
 
 
 ## Задача 3
 - list и удаление
 
-![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/3.1.png)
+![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/04/files/z3.1.png)
 
 - Вернул network и subnet
 
