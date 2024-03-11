@@ -1,12 +1,12 @@
 resource "yandex_compute_disk" "storage" {
-  count = 3
+  count = var.disk_cont
   name  = "disk${count.index + 1}"
   size  = var.disk_size
-  type  = "network-hdd"
+  type  = var.disk_type
 }
  
 resource "yandex_compute_instance" "storage" {
-  name = "storage"
+  name = var.name_disk
   resources {
     cores         = 2
     memory        = 2

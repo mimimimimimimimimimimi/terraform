@@ -79,3 +79,28 @@ variable "disk_size" {
   default     = "1"
   description = "HDD volume for VM"
 }
+
+variable "instance_count" {
+  type        = string
+  default     = "2"
+}
+
+variable "disk_cont" {
+  type        = string
+  default     = "3"
+}
+
+variable "disk_type" {
+  type        = string
+  default     = "network-hdd"
+}
+
+variable "name_disk" {
+  type        = string
+  default     = "storage"
+}
+
+variable "platform_id" {
+  type        = string
+  default     = "standard-v1"
+}

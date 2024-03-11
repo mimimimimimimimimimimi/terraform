@@ -3,10 +3,10 @@ data "yandex_compute_image" "ubuntu" {
 }
 
 resource "yandex_compute_instance" "web" {
-  count        = 2
+  count        = var.instance_count
   name         = "web-${count.index + 1}"
   depends_on = [yandex_compute_instance.db]
-  platform_id = "standard-v1"
+  platform_id = var.platform_id
   resources {
     cores         = var.vms_resources["web_vm"].cores
     memory        = var.vms_resources["web_vm"].memory
