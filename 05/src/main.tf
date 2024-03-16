@@ -48,15 +48,16 @@ resource "yandex_vpc_subnet" "develop" {
 }
 
 module "marketing-vm" {
-  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=4d05fab828b1fcae16556a4d167134efca2fccf2"
   env_name       = "marketing"
   network_id     = module.vpc_dev.network_id
+  security_group_ids = [yandex_vpc_security_group.test_develop.id]
   subnet_zones   = ["ru-central1-a"]
   subnet_ids     = [module.vpc_dev.subnet_id]
   instance_name  = "vm"
   instance_count = 1
   image_family   = "ubuntu-2004-lts"
-  public_ip      = true
+  public_ip      = false
 
   metadata = {
     user-data          = data.template_file.cloudinit.rendered
@@ -69,15 +70,16 @@ module "marketing-vm" {
 }
 
 module "analytics-vm" {
-  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=main"
+  source         = "git::https://github.com/udjin10/yandex_compute_instance.git?ref=4d05fab828b1fcae16556a4d167134efca2fccf2"
   env_name       = "analytics"
   network_id     = module.vpc_dev.network_id
+  security_group_ids = [yandex_vpc_security_group.test_develop.id]
   subnet_zones   = ["ru-central1-a"]
   subnet_ids     = [module.vpc_dev.subnet_id]
   instance_name  = "vm"
   instance_count = 1
   image_family   = "ubuntu-2004-lts"
-  public_ip      = true
+  public_ip      = false
 
   metadata = {
     user-data          = data.template_file.cloudinit.rendered
