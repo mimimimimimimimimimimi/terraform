@@ -6,7 +6,7 @@ terraform {
   key                         = "terraform.tfstate"
   skip_region_validation      = true
   skip_credentials_validation = true
-  dynamodb_endpoint           = "https://docapi.serverless.yandexcloud.net/ru-central1/b1g4su1v8mollnks7dbt/etn1u7a4uit40dorq4u0"
+  dynamodb_endpoint           = "https://docapi.serverless.yandexcloud.net/ru-central1/b1g4su1v8mollnks7dbt/etng8s48fhtg6o1e8b64"
   dynamodb_table              = "table716"
   }
 
