@@ -31,3 +31,13 @@
 - Разблокировал state
 
 ![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/05/files/z2.5.png)
+
+
+## Задача 4
+- Сами переменные
+
+![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/05/files/z4.1.png)
+
+- Проверка в консоли
+
+![image](https://github.com/mimimimimimimimimimimi/terraform/raw/main/05/files/z4.2.png)
